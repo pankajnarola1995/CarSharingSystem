@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1527079549 source:d:\c++ project\carsharingsystem\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<sstream>
+	<new>
+	<vector>
+	"global.h"
+	"Car.h"
+	"Registration.h"
+
+1527083576 source:d:\c++ project\carsharingsystem\car.cpp
+	"Car.h"
+	"global.h"
+	<string>
+	<vector>
+	<algorithm>
+	<iomanip>
+
+1527065677 d:\c++ project\carsharingsystem\car.h
+	<iostream>
+	<string>
+
+1526662274 d:\c++ project\carsharingsystem\registration.h
+	<iostream>
+	<string>
+
+1527068256 source:d:\c++ project\carsharingsystem\registration.cpp
+	"global.h"
+	"Registration.h"
+	<string>
+	<vector>
+
+1527063975 d:\c++ project\carsharingsystem\global.h
+	<iostream>
+	<string>
+
+1527064044 source:d:\c++ project\carsharingsystem\global.cpp
+	"global.h"
+
