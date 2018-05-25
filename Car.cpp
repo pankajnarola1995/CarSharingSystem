@@ -212,15 +212,12 @@ void fillCarVector(vector<Car>& newAllCar)
     cout << endl;
 }
 
-
+// TODO: Here I want to delete the particuar Record from Vector Object..
 void deleteCarVector( vector<Car>& newAllCar)
 {
     int id;
     cout<<" \n\t\t Please Enter the Id of Car to Delete Car Details :  ";
     cin>>id;
-
-//replace(newAllCar.begin(),newAllCar.end(),"a","b");
-
     int tmp;
     unsigned int size = newAllCar.size();
     for (unsigned int i = 0; i<size; i++)
@@ -263,6 +260,7 @@ void deleteCarVector( vector<Car>& newAllCar)
     cout << endl;
 }
 
+// TODO: Here I want to edit the particuar Record from Vector Object..
 
 void editCarVector( vector<Car>& newAllCar)
 {
