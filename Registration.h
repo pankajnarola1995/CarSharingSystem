@@ -18,7 +18,7 @@ public:
     Registration();
 
     //overload Constructor
-    Registration(int, string, string);
+    Registration(int, string, string,string);
 
     //destructor
     ~Registration();
@@ -29,12 +29,14 @@ public:
     string getUserName() const;
 
     string getPassword() const;
+    string getAccountType() const;
 
 
     //mutator functions
     void setId(int);
     void setUserName(string);
     void setPassword(string);
+    void setAccountType(string);
 
        bool isLogin=false;
   string SessUserName="";
@@ -44,6 +46,7 @@ private:
     int newId;
     string newUserName;
     string  newPassword;
+    string  newAccountType;
 
 
 

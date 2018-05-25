@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1527079549 source:d:\c++ project\carsharingsystem\main.cpp
+1527264269 source:d:\c++ project\carsharingsystem\main.cpp
 	<iostream>
 	<iomanip>
 	<string>
@@ -9,8 +9,9 @@
 	"global.h"
 	"Car.h"
 	"Registration.h"
+	"Car.h"
 
-1527083576 source:d:\c++ project\carsharingsystem\car.cpp
+1527270202 source:d:\c++ project\carsharingsystem\car.cpp
 	"Car.h"
 	"global.h"
 	<string>
@@ -18,19 +19,20 @@
 	<algorithm>
 	<iomanip>
 
-1527065677 d:\c++ project\carsharingsystem\car.h
+1527270226 d:\c++ project\carsharingsystem\car.h
 	<iostream>
 	<string>
 
-1526662274 d:\c++ project\carsharingsystem\registration.h
+1527260849 d:\c++ project\carsharingsystem\registration.h
 	<iostream>
 	<string>
 
-1527068256 source:d:\c++ project\carsharingsystem\registration.cpp
+1527267051 source:d:\c++ project\carsharingsystem\registration.cpp
 	"global.h"
 	"Registration.h"
 	<string>
 	<vector>
+	<iomanip>
 
 1527063975 d:\c++ project\carsharingsystem\global.h
 	<iostream>
@@ -38,4 +40,23 @@
 
 1527064044 source:d:\c++ project\carsharingsystem\global.cpp
 	"global.h"
+
+1527174718 source:d:\c++ project\carsharingsystem\carowner.cpp
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	"CarOwnerMap.h"
+
+1527174570 d:\c++ project\carsharingsystem\carownermap.h
+	<iostream>
+	<memory>
+	<string>
+	<map>
+	<vector>
+	"CarOwner.h"
+
+1527174148 d:\c++ project\carsharingsystem\carowner.h
+	<string>
+	<iostream>
 
